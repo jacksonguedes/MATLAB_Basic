@@ -1,0 +1,22 @@
+clc;
+clear all;
+close all;
+%% Convolução
+
+t = 0:0.01:5;
+f = sin(3*pi*t);
+g = zeros(1, length(t));
+g(1:100) = 1;
+figure
+plot(t,f,t,g);
+h = conv(f,g,'same');
+figure
+plot(t,f,t,g,t,h);
+legend('f','g','convolução')
+
+%% Interpolação
+
+
+
+
+

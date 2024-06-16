@@ -1,0 +1,25 @@
+clc;
+clear all;
+close all;
+
+%% Resolver Equação
+%Polinômios
+
+P = [1 2 1];                  % Equação X^2 + 2x +1
+O = [1 2 1 1];                % Equação do Terceiro Grau
+r = roots(O);                 % Raízes
+polyval(O,-0.1226 + 0.7449i); % Testando as raízes no polinômios
+polyder(O);                   % Calculando a Derivada do polinômio
+
+%% Equação da Reta
+t = 0:0.1:5;
+y = 2*t.^3+3*t+1;
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+Hora 1, Temperatura 20.6
+Hora 3, Temperatura 21.2
+Hora 5, Temperatura 23.1
+Hora 6, Temperatura 24.5
+Hora 8, Temperatura 25.0
+Hora 9, Temperatura 25.2
+Hora 10, Temperatura 25.8
